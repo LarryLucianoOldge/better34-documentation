@@ -1,0 +1,23 @@
+site_name: Better34 Documentation
+theme: 
+  name: material
+  palette: 
+    scheme: default
+    primary: green
+    accent: green
+  
+  features:
+    - navigation.instant
+markdown_extensions:
+  - admonition
+  - tables
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true
